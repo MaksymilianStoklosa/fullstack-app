@@ -1,0 +1,21 @@
+button {
+  outline: unset;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[role="button"] {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+*:focus {
+  outline: unset;
+}

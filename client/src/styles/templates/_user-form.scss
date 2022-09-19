@@ -1,0 +1,16 @@
+.user-form {
+  min-width: 500px;
+
+  .form-col {
+    padding: 10px 0;
+  }
+
+  .form-footer {
+    display: flex;
+    justify-content: flex-end;
+
+    .user-form__clear-button {
+      margin-right: 15px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.button {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  min-width: 100px;
+  cursor: pointer;
+
+  &.button--primary {
+    background: $color-blue;
+
+    &,
+    .button__content {
+      color: $color-white;
+    }
+  }
+
+  &.button--secondary {
+    border: 1px solid $color-grey;
+    padding: 9px 25px;
+
+    &,
+    .button__content {
+      color: $color-black;
+    }
+
+    &:disabled {
+      background: inherit;
+      opacity: 0.5;
+    }
+  }
+}
